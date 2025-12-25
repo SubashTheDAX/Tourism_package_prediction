@@ -15,7 +15,7 @@ python-dateutil==2.8.2
 
 # Machine Learning
 scikit-learn==1.6.0         # For preprocessing, model selection, metrics
-xgboost==2.0.3               # Main ML algorithm
+xgboost==2.1.4              # Main ML algorithm
 imbalanced-learn==0.11.0     # For handling class imbalance (optional)
 
 # Model management and serialization
@@ -35,5 +35,6 @@ plotly==5.18.0               # For interactive visualizations
 pytz==2023.3
 requests==2.31.0
 urllib3==2.1.0
+
 
 
