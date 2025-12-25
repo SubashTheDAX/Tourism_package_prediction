@@ -316,7 +316,7 @@ Action: Schedule immediate follow-up call
 
 ## 👥 Contributors
 
-- **Your Name** - MLOps Engineer
+- **Subash M** - MLOps Engineer
 
 ## 📄 License
 
@@ -331,5 +331,5 @@ This project is licensed under the MIT License.
 ---
 
 **Project Status**: ✅ Production Ready  
-**Last Updated**: December 2024  
+**Last Updated**: December 2025  
 **Version**: 1.0.0
