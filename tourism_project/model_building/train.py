@@ -16,7 +16,7 @@ from huggingface_hub import login, HfApi, create_repo
 from huggingface_hub.utils import RepositoryNotFoundError, HfHubHTTPError
 import mlflow
 
-mlflow.set_tracking_url("http://localhost:5000")
+mlflow.set_tracking_uri("http://localhost:5000")
 mlflow.set_experiment("tour_pkg_pred_experiment_prod")
 
 api = HfApi()
@@ -158,3 +158,4 @@ with mlflow.start_run():
         repo_id=repo_id,
         repo_type=repo_type,
     )
+
