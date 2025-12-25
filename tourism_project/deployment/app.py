@@ -108,12 +108,12 @@ def create_input_features():
         
         # Gender: Male, Female, Fe Male (as seen in data)
         gender = st.selectbox("Gender", 
-                             ["Female" "Male" "Fe Male"],
+                             ["Female", "Male", "Fe Male"],
                              help="Customer's gender")
         
         # MaritalStatus: Single, Married, Divorced, Unmarried
         marital_status = st.selectbox("Marital Status", 
-                                     ["Single" "Divorced" "Married" "Unmarried"],
+                                     ["Single", "Divorced", "Married", "Unmarried"],
                                      help="Customer's marital status")
         
         # CityTier: 1, 2, 3
@@ -127,12 +127,12 @@ def create_input_features():
         
         # Occupation: Salaried, Small Business, Large Business, Free Lancer
         occupation = st.selectbox("Occupation", 
-                                 ["Salaried" "Free Lancer" "Small Business" "Large Business"],
+                                 ["Salaried", "Free Lancer", "Small Business", "Large Business"],
                                  help="Customer's occupation type")
         
         # Designation: Executive, Manager, Senior Manager, AVP, VP
         designation = st.selectbox("Designation",
-                                  ["Manager" "Executive" "Senior Manager" "AVP" "VP"],
+                                  ["Manager", "Executive", "Senior Manager", "AVP", "VP"],
                                   help="Customer's job designation")
         
         # MonthlyIncome: Range from 1000 to 98678
@@ -195,12 +195,12 @@ def create_input_features():
         
         # TypeofContact: Company Invited, Self Enquiry
         type_of_contact = st.selectbox("Type of Contact", 
-                                      ["Self Enquiry" "Company Invited"],
+                                      ["Self Enquiry", "Company Invited"],
                                       help="How was the customer contacted?")
         
         # ProductPitched: Basic, Standard, Deluxe, Super Deluxe, King
         product_pitched = st.selectbox("Product Pitched",
-                                      ["Deluxe" "Basic" "Standard" "Super Deluxe" "King"],
+                                      ["Deluxe", "Basic", "Standard", "Super Deluxe", "King"],
                                       help="Type of package pitched to the customer")
         
         # DurationOfPitch: Range from 5-127 minutes
